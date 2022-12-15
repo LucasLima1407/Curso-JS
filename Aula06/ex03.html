@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso JavaScript</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <h1 id="mundo">Olá, mundo</h1>
+    <!-- P não suporta id ou classe  -->
+    <p>Já me livrei da maldição</p>
+    <script>
+        // Identificadores podem começar com letras, _ ou $, maiúsculo ou minúsculo fazem diferença no nome da variável //
+        var n1 = Number.parseInt(window.prompt("Digite um número: "))
+        var n2 = Number.parseInt(window.prompt("Digite outro número: "))
+        // Parse int transformará o número da string em primeiro//
+        // Apenas number também funciona//
+        // To string para converter em string//
+        var s = n1 + n2
+        window.alert(`A soma entre ${n1} e ${n2} é ${s}`)
+        // + para adição ou concatenação//
+        // number + number adição//
+        // String + String concatenação//
+        // Window prompt só retorna string//
+        //Ao concatenar se utilizarmos crase e um placeholder não precisamos concatenar strings//
+    </script>
+</body>
+</html>
