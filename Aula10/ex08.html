@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos DOM</title>
+    <script src="funcoes.js"></script>
+    <style>
+        #area{
+            font: 20pt arial;
+            background: rgb(42,139,42);
+            color: white;
+            height: 200px;
+            width: 200px;
+            line-height: 200px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="area">
+        interação
+    </div>
+    <script>
+        //usar o devtolls para detetcção de erros//
+        var a = window.document.getElementById('area')
+        a.addEventListener('click', clicar)
+        a.addEventListener('mouseenter', entrar)
+        a.addEventListener('mouseout', sair)
+    </script>
+</body>
+</html>
